@@ -5,7 +5,7 @@ from langchain_experimental.agents.agent_toolkits import create_csv_agent
 from langchain_openai import OpenAI
 import streamlit as st
 
-api_key = "sk-None-JcrdY7dThe977ykRW2ZNT3BlbkFJgmx1EQljr6QUcvoqnlnE"
+api_key = "sk-None-0p7Namj74Ro0HhihLLCuT3BlbkFJtS5gW7fNRX3YnX1BzaPZ"
 #api_key = "sk-None-JcrdY7dThe977ykRW2ZNT3BlbkFJgmx1EQljr6QUcvoqnlnX"
 
 def main():
