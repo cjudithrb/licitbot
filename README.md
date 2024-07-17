@@ -104,13 +104,13 @@ if __name__ == "__main__":
 
 ## 5. Ejecucion
 
-- Instalar Dependencias necesarias
+- [x] Instalar Dependencias necesarias
 ```pip install pandas streamlit langchain_openai```
 
-- Ejecuta el archivo
+- [x] Ejecuta el archivo
 ``` streamlit run nombre_del_archivo.py ```
 
-- Abre el navegador y navega a la dirección que se muestra en la terminal para interactuar con el ChatBot.
+- [x] Abre el navegador y navega a la dirección que se muestra en la terminal para interactuar con el ChatBot.
 
 ![image](https://github.com/user-attachments/assets/345800cb-a9ff-41cf-944d-458f3f98edb8)
 
@@ -118,7 +118,6 @@ if __name__ == "__main__":
 [![YouTube Icon](https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/YouTube_full-color_icon_%282017%29.svg/120px-YouTube_full-color_icon_%282017%29.svg.png)](https://youtu.be/B5NBMAJEJeo "Ver Video")
 
 ## Authors
-- :computer: **licitbot** - ([https://github.com/cjudithrb/licitbot/])
 - :woman_technologist: **Judiht Rojas** - [GitHub](https://github.com/cjudithrb)
 - :woman_technologist: **Miguel Silva** - [GitHub](https://github.com/mascfree)
 
