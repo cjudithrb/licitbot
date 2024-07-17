@@ -1,5 +1,3 @@
-
-
 # Proyecto ChatBot para Análisis de Datos CSV
 
 ## 1. Descripción del Proyecto
@@ -116,5 +114,11 @@ if __name__ == "__main__":
 
 ![image](https://github.com/user-attachments/assets/345800cb-a9ff-41cf-944d-458f3f98edb8)
 
+## 6. Presentacion en Video
+[![YouTube Icon](https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/YouTube_full-color_icon_%282017%29.svg/120px-YouTube_full-color_icon_%282017%29.svg.png)](https://youtu.be/B5NBMAJEJeo "Ver Video")
+
 ## Authors
-- [@licibot]([https://github.com/cjudithrb/licitbot/])
+- :computer: **licitbot** - ([https://github.com/cjudithrb/licitbot/])
+- :woman_technologist: **Judiht Rojas** - [GitHub](https://github.com/cjudithrb)
+- :woman_technologist: **Miguel Silva** - [GitHub](https://github.com/mascfree)
+
