@@ -1,10 +1,12 @@
+
+
 # Documentación del Proyecto ChatBot para Análisis de Datos CSV
 
-## Descripción del Proyecto
+## 1. Descripción del Proyecto
 
 Este proyecto consiste en un ChatBot desarrollado con Python que permite realizar análisis de datos a partir de un archivo CSV. Utiliza la biblioteca `langchain` para la creación del agente y `Streamlit` para la interfaz web. El objetivo es permitir a los usuarios hacer preguntas sobre los datos y obtener respuestas basadas en el análisis del archivo CSV.
 
-## Estructura del Código
+## 2. Estructura del Código
 
 ### Importaciones
 
@@ -15,10 +17,9 @@ from langchain.agents.agent_types import AgentType  # Importa el tipo de agente 
 from langchain_experimental.agents.agent_toolkits import create_csv_agent  # Importa la función para crear un agente CSV
 from langchain_openai import OpenAI  # Importa la clase OpenAI de langchain
 import streamlit as st  # Importa la biblioteca streamlit para crear la interfaz web
+```
 
-Explicación del Código
-Importaciones: Se importan las bibliotecas necesarias para la manipulación de datos (pandas), la creación del agente (langchain y langchain_openai), y la construcción de la interfaz web (streamlit).
-
+```python
 def main():
     # Lee el archivo CSV en un DataFrame de pandas
     df = pd.read_csv("data.csv")
@@ -72,9 +73,11 @@ def main():
 # Ejecuta la función principal si este archivo es el principal
 if __name__ == "__main__":
     main()
+```
+## 3. Explicación del Código
+- Importaciones: Se importan las bibliotecas necesarias para la manipulación de datos (pandas), la creación del agente (langchain y langchain_openai), y la construcción de la interfaz web (streamlit).
 
-
-Función main():
+- Función main():
 
 Se lee el archivo data.csv en un DataFrame de pandas.
 Se configura la página de Streamlit con un título y un icono.
@@ -87,13 +90,13 @@ Se ejecuta el agente con la pregunta del usuario y se muestra la respuesta en la
 Ejecución de la Función Principal: La función main() se ejecuta si el archivo es el principal.
 
 
-1.-Instalar Dependencias necesarias
-pip install pandas streamlit langchain_openai
+### 1.-Instalar Dependencias necesarias
+```pip install pandas streamlit langchain_openai```
 
-2.-Ejecuta el archivo
+###2.-Ejecuta el archivo
 streamlit run nombre_del_archivo.py
 
-3.- Abre el navegador y navega a la dirección que se muestra en la terminal para interactuar con el ChatBot.
+###3.- Abre el navegador y navega a la dirección que se muestra en la terminal para interactuar con el ChatBot.
 
 
 
@@ -122,3 +125,5 @@ Telefono: Número de teléfono de contacto.
 Email: Dirección de correo electrónico de contacto.
 Ola: Ola a la que pertenece la licitación.
 
+## Authors
+- [@licibot]([https://github.com/cjudithrb/licitbot/])
